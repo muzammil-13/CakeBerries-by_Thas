@@ -1,3 +1,19 @@
+.cake-card {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 8px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    /* width: 300px;  Remove or adjust this if needed */
+    /* Add flexbox properties for better horizontal alignment control within the card */
+    display: flex;
+    flex-direction: column; /* Align items vertically within the card */
+
+}
+
+/* ... rest of your CakeCard.css styles */
+
 .card {
   border: 1px solid #ccc;
   border-radius: 5px;
@@ -28,6 +44,8 @@
     box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.2); /* More prominent shadow */
 
 }
+
+
 
 
 

@@ -1,0 +1,57 @@
+/* Basic styles for the Home page */
+
+.home-container { /* Example container for the whole home page */
+    padding: 20px;
+    max-width: 1200px;  /* Set a maximum width for the content */
+    margin: 0 auto; /* Center the content */
+
+}
+
+.hero-section {
+    background-size: cover; /* Make the background image fill the section */
+    color: white; /* Text color */
+    text-align: center;
+    padding: 100px 20px; /* Increase padding for a more impactful hero section */
+
+}
+
+
+
+.hero-section h1 {
+    font-size: 3em;
+    font-family: 'Dancing Script', cursive; /* Or a similar elegant font */
+    margin-bottom: 20px;
+
+}
+
+
+
+.hero-section p {  /* Styles for the paragraph text in hero section */
+    font-size: 1.2em;
+    margin-bottom: 30px;
+
+}
+
+.shop-now-button { /* Styles for the shop now button in hero section */
+    background-color: #d68910;
+    color: white;
+    font-size: 1.2em;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.cake-list {
+    display: flex;
+    /* Remove flex-wrap: wrap; to keep cards in a single row */
+    justify-content: center; /* Horizontally center the cards within the container */
+    gap: 20px; /* Spacing between cards */
+    overflow-x: auto;  /* Enable horizontal scrolling if needed */
+    
+}
+
+
+
+
+
