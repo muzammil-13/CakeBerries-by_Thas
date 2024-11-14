@@ -1,0 +1,51 @@
+nav {
+    background-color: #f0f0f0; /* Light gray background */
+    padding: 10px 0; /* Padding top/bottom */
+    border-bottom: 1px solid #ddd; /* Subtle bottom border */
+
+
+}
+
+nav ul {  /* Remove default list styling */
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex; /* Arrange list items horizontally */
+    justify-content: space-around; /* Distribute items evenly */
+
+
+
+
+}
+
+
+nav li {
+    margin: 0 15px; /* Spacing between list items */
+
+}
+
+nav a {
+    text-decoration: none; /* Remove underlines from links */
+    color: #333; /* Dark gray text */
+    font-weight: 500; /* Slightly bolder text */
+    transition: color 0.3s ease; /* Smooth transition on hover */
+
+}
+
+
+nav a:hover {
+  color: #0056b3;  /* Example: Darker blue on hover */
+
+
+}
+
+/* For active navigation links:  */
+nav a.active {
+    color: #0056b3; /* Example: Blue for active link */
+    font-weight: bold;
+
+
+
+}
+
+

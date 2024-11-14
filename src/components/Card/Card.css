@@ -1,0 +1,33 @@
+.card {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+  margin: 10px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  background-color: #fff; /* White background */
+
+}
+
+.card h3 {  /* Style the card title */
+    margin-top: 0;
+    font-size: 1.2em;
+    color: #333;
+
+
+}
+
+.card .content { /* Style any content inside a div with class "content" within the card*/
+    margin-top: 10px;  /* Some spacing below the title */
+
+}
+
+/* Example of a more specific card using an additional class: */
+
+.card.featured {
+    border-color: #007bff; /* Example: Blue border for featured card */
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.2); /* More prominent shadow */
+
+}
+
+
+
